@@ -1,23 +1,29 @@
-# Network-Packet-Sniffer-With-Alert-System
-A Python-based network packet sniffer captures, analyzes, and logs live network traffic using Scapy. The tool detects potential network issues like packet floods or scans and saves them in a local SQLite database. It has a Tkinter-based GUI for real-time monitoring, filtering packets, and exporting captured data in CSV or HTML format.
+# 🕵️‍♀️ Network Packet Sniffer with Alert System
 
-## Key Features:
+A **Python-based network packet sniffer** that captures, analyzes, and logs live network traffic using **Scapy**.  
+The tool detects potential network anomalies such as **packet floods** or **port scans**, and saves packet data in a local **SQLite database**.  
+It includes a **Tkinter GUI** for real-time monitoring, filtering packets, and exporting captured data to **CSV or HTML** formats.
 
-Live packet capturing and analysis
+---
 
-Real-time traffic summary display with GUI
+## 🚀 Key Features
+- 📡 **Live Packet Capturing and Analysis** — monitors real-time network activity using Scapy.  
+- 🖥️ **User-Friendly GUI** — built with Tkinter for intuitive control and live updates.  
+- ⚠️ **Automatic Anomaly Detection** — identifies potential floods or scans using threshold logic.  
+- 🗄️ **Database Logging** — stores all captured packets in an SQLite database for review.  
+- 📊 **Report Generation** — exports detailed capture reports in CSV or HTML format.  
+- ⚙️ **Lightweight & Customizable** — easy to modify for educational or enterprise use.
 
-Automatic anomaly/flood detection
+---
 
-SQLite database logging of captured packets
+## 🧠 Tech Stack
+**Languages & Libraries:**
+- 🐍 Python  
+- 📦 Scapy  
+- 🪟 Tkinter  
+- 🗃️ SQLite3  
 
-Export reports to CSV and HTML formats
-
-Lightweight, easy-to-use design
-
-## Tech Stack:
-
-Python · Scapy · Tkinter · SQLite3
+---
 
 ## 📸 Screenshots
 
@@ -36,3 +42,21 @@ Python · Scapy · Tkinter · SQLite3
 ### 🗄️ Database Storage
 ![Database Structure](screenshots/database_structure.png)
 
+---
+
+## ⚙️ Installation & Usage
+
+### 🧰 Prerequisites
+Make sure you have **Python 3.8+** and **Scapy** installed.
+
+```bash
+pip install -r requirements.txt
+```
+---
+
+### ▶️ Run the Tool
+
+Run as root/admin for live packet capture:
+
+```bash
+sudo python3 packet_sniffer_alert_GUI.py
