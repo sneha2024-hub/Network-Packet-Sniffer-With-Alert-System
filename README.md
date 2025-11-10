@@ -18,3 +18,21 @@ Lightweight, easy-to-use design
 ## Tech Stack:
 
 Python · Scapy · Tkinter · SQLite3
+
+## 📸 Screenshots
+
+### 🖥️ GUI Interface
+![GUI Start](screenshots/gui_start.png)
+
+### 🌐 Packet Capture
+![Packet Capture](screenshots/packet_capture.png)
+
+### ⚠️ Alert Detection
+![Alert Detection](screenshots/alert_terminal.png)
+
+### 🧾 Alert Logs
+![Alert Logs](screenshots/alert_logs.png)
+
+### 🗄️ Database Storage
+![Database Structure](screenshots/database_structure.png)
+
