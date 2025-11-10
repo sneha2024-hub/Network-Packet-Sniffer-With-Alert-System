@@ -1,0 +1,17 @@
+# Core Networking Library 
+scapy==2.5.0
+
+# GUI Framework 
+tkinter  # Usually pre-installed with Python (only listed for reference)
+
+# Database Handling 
+sqlite3  # Built-in with Python, no external install needed
+
+# Standard Libraries (for clarity) 
+csv
+html
+threading
+queue
+time
+datetime
+collections
